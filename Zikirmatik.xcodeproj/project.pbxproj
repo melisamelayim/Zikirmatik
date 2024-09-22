@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5088C9AC2C9D6A6700475752 /* ZikirmatikApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088C9AB2C9D6A6700475752 /* ZikirmatikApp.swift */; };
+		5088C9AE2C9D6A6700475752 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088C9AD2C9D6A6700475752 /* ContentView.swift */; };
+		5088C9B02C9D6A6A00475752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5088C9AF2C9D6A6A00475752 /* Assets.xcassets */; };
+		5088C9B32C9D6A6A00475752 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5088C9B22C9D6A6A00475752 /* Preview Assets.xcassets */; };
+		5088C9BD2C9D6A6B00475752 /* ZikirmatikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088C9BC2C9D6A6B00475752 /* ZikirmatikTests.swift */; };
+		5088C9C72C9D6A6B00475752 /* ZikirmatikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088C9C62C9D6A6B00475752 /* ZikirmatikUITests.swift */; };
+		5088C9C92C9D6A6B00475752 /* ZikirmatikUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5088C9C82C9D6A6B00475752 /* ZikirmatikUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5088C9B92C9D6A6B00475752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5088C9A02C9D6A6700475752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5088C9A72C9D6A6700475752;
+			remoteInfo = Zikirmatik;
+		};
+		5088C9C32C9D6A6B00475752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5088C9A02C9D6A6700475752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5088C9A72C9D6A6700475752;
+			remoteInfo = Zikirmatik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5088C9A82C9D6A6700475752 /* Zikirmatik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zikirmatik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5088C9AB2C9D6A6700475752 /* ZikirmatikApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirmatikApp.swift; sourceTree = "<group>"; };
+		5088C9AD2C9D6A6700475752 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5088C9AF2C9D6A6A00475752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5088C9B22C9D6A6A00475752 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5088C9B82C9D6A6B00475752 /* ZikirmatikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZikirmatikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5088C9BC2C9D6A6B00475752 /* ZikirmatikTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirmatikTests.swift; sourceTree = "<group>"; };
+		5088C9C22C9D6A6B00475752 /* ZikirmatikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZikirmatikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5088C9C62C9D6A6B00475752 /* ZikirmatikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirmatikUITests.swift; sourceTree = "<group>"; };
+		5088C9C82C9D6A6B00475752 /* ZikirmatikUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZikirmatikUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5088C9A52C9D6A6700475752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9B52C9D6A6B00475752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9BF2C9D6A6B00475752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5088C99F2C9D6A6700475752 = {
+			isa = PBXGroup;
+			children = (
+				5088C9AA2C9D6A6700475752 /* Zikirmatik */,
+				5088C9BB2C9D6A6B00475752 /* ZikirmatikTests */,
+				5088C9C52C9D6A6B00475752 /* ZikirmatikUITests */,
+				5088C9A92C9D6A6700475752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5088C9A92C9D6A6700475752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5088C9A82C9D6A6700475752 /* Zikirmatik.app */,
+				5088C9B82C9D6A6B00475752 /* ZikirmatikTests.xctest */,
+				5088C9C22C9D6A6B00475752 /* ZikirmatikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088C9AA2C9D6A6700475752 /* Zikirmatik */ = {
+			isa = PBXGroup;
+			children = (
+				5088C9AB2C9D6A6700475752 /* ZikirmatikApp.swift */,
+				5088C9AD2C9D6A6700475752 /* ContentView.swift */,
+				5088C9AF2C9D6A6A00475752 /* Assets.xcassets */,
+				5088C9B12C9D6A6A00475752 /* Preview Content */,
+			);
+			path = Zikirmatik;
+			sourceTree = "<group>";
+		};
+		5088C9B12C9D6A6A00475752 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5088C9B22C9D6A6A00475752 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5088C9BB2C9D6A6B00475752 /* ZikirmatikTests */ = {
+			isa = PBXGroup;
+			children = (
+				5088C9BC2C9D6A6B00475752 /* ZikirmatikTests.swift */,
+			);
+			path = ZikirmatikTests;
+			sourceTree = "<group>";
+		};
+		5088C9C52C9D6A6B00475752 /* ZikirmatikUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5088C9C62C9D6A6B00475752 /* ZikirmatikUITests.swift */,
+				5088C9C82C9D6A6B00475752 /* ZikirmatikUITestsLaunchTests.swift */,
+			);
+			path = ZikirmatikUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5088C9A72C9D6A6700475752 /* Zikirmatik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5088C9CC2C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "Zikirmatik" */;
+			buildPhases = (
+				5088C9A42C9D6A6700475752 /* Sources */,
+				5088C9A52C9D6A6700475752 /* Frameworks */,
+				5088C9A62C9D6A6700475752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zikirmatik;
+			productName = Zikirmatik;
+			productReference = 5088C9A82C9D6A6700475752 /* Zikirmatik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5088C9B72C9D6A6B00475752 /* ZikirmatikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5088C9CF2C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "ZikirmatikTests" */;
+			buildPhases = (
+				5088C9B42C9D6A6B00475752 /* Sources */,
+				5088C9B52C9D6A6B00475752 /* Frameworks */,
+				5088C9B62C9D6A6B00475752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5088C9BA2C9D6A6B00475752 /* PBXTargetDependency */,
+			);
+			name = ZikirmatikTests;
+			productName = ZikirmatikTests;
+			productReference = 5088C9B82C9D6A6B00475752 /* ZikirmatikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5088C9C12C9D6A6B00475752 /* ZikirmatikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5088C9D22C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "ZikirmatikUITests" */;
+			buildPhases = (
+				5088C9BE2C9D6A6B00475752 /* Sources */,
+				5088C9BF2C9D6A6B00475752 /* Frameworks */,
+				5088C9C02C9D6A6B00475752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5088C9C42C9D6A6B00475752 /* PBXTargetDependency */,
+			);
+			name = ZikirmatikUITests;
+			productName = ZikirmatikUITests;
+			productReference = 5088C9C22C9D6A6B00475752 /* ZikirmatikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5088C9A02C9D6A6700475752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5088C9A72C9D6A6700475752 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5088C9B72C9D6A6B00475752 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5088C9A72C9D6A6700475752;
+					};
+					5088C9C12C9D6A6B00475752 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5088C9A72C9D6A6700475752;
+					};
+				};
+			};
+			buildConfigurationList = 5088C9A32C9D6A6700475752 /* Build configuration list for PBXProject "Zikirmatik" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5088C99F2C9D6A6700475752;
+			productRefGroup = 5088C9A92C9D6A6700475752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5088C9A72C9D6A6700475752 /* Zikirmatik */,
+				5088C9B72C9D6A6B00475752 /* ZikirmatikTests */,
+				5088C9C12C9D6A6B00475752 /* ZikirmatikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5088C9A62C9D6A6700475752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5088C9B32C9D6A6A00475752 /* Preview Assets.xcassets in Resources */,
+				5088C9B02C9D6A6A00475752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9B62C9D6A6B00475752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9C02C9D6A6B00475752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5088C9A42C9D6A6700475752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5088C9AE2C9D6A6700475752 /* ContentView.swift in Sources */,
+				5088C9AC2C9D6A6700475752 /* ZikirmatikApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9B42C9D6A6B00475752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5088C9BD2C9D6A6B00475752 /* ZikirmatikTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5088C9BE2C9D6A6B00475752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5088C9C72C9D6A6B00475752 /* ZikirmatikUITests.swift in Sources */,
+				5088C9C92C9D6A6B00475752 /* ZikirmatikUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5088C9BA2C9D6A6B00475752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5088C9A72C9D6A6700475752 /* Zikirmatik */;
+			targetProxy = 5088C9B92C9D6A6B00475752 /* PBXContainerItemProxy */;
+		};
+		5088C9C42C9D6A6B00475752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5088C9A72C9D6A6700475752 /* Zikirmatik */;
+			targetProxy = 5088C9C32C9D6A6B00475752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5088C9CA2C9D6A6B00475752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5088C9CB2C9D6A6B00475752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5088C9CD2C9D6A6B00475752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zikirmatik/Preview Content\"";
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.Zikirmatik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5088C9CE2C9D6A6B00475752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zikirmatik/Preview Content\"";
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.Zikirmatik;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5088C9D02C9D6A6B00475752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.ZikirmatikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zikirmatik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zikirmatik";
+			};
+			name = Debug;
+		};
+		5088C9D12C9D6A6B00475752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.ZikirmatikTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zikirmatik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zikirmatik";
+			};
+			name = Release;
+		};
+		5088C9D32C9D6A6B00475752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.ZikirmatikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zikirmatik;
+			};
+			name = Debug;
+		};
+		5088C9D42C9D6A6B00475752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SWRT282V8Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = melisamelayim.ZikirmatikUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zikirmatik;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5088C9A32C9D6A6700475752 /* Build configuration list for PBXProject "Zikirmatik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5088C9CA2C9D6A6B00475752 /* Debug */,
+				5088C9CB2C9D6A6B00475752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5088C9CC2C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "Zikirmatik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5088C9CD2C9D6A6B00475752 /* Debug */,
+				5088C9CE2C9D6A6B00475752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5088C9CF2C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "ZikirmatikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5088C9D02C9D6A6B00475752 /* Debug */,
+				5088C9D12C9D6A6B00475752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5088C9D22C9D6A6B00475752 /* Build configuration list for PBXNativeTarget "ZikirmatikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5088C9D32C9D6A6B00475752 /* Debug */,
+				5088C9D42C9D6A6B00475752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5088C9A02C9D6A6700475752 /* Project object */;
+}
