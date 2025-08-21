@@ -18,14 +18,8 @@ Zikirmatik, kullanıcıların ekrana dokunarak sayaçlarını artırabilecekleri
 
 ## Kurulum
 	1	Bu repoyu klonlayın: git clone https://github.com/melisamelayim/Zikirmatik.git
-	2	Projeyi Xcode ile açıp çalıştırın.
+	2	Projeyi Xcode ile açıp çalıştırın
 
-## Dosya Yapısı
-/Zikirmatik
- ├── ContentView.swift
- ├── Assets.xcassets
- ├── ZikirmatikApp.swift
- ├── README.md
 
 ## Geliştirme Süreci
 	•	Butona basma animasyonu yumuşatıldı.
